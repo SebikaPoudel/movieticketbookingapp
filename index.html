@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Movie Ticket Booking</title>
+</head>
+<body>
+    <div class="book">
+<div class="left">
+    <img src="mahajatra.jpeg" alt="">
+    <div class="play">
+        <i class="bi bi-play-fill" id="play"></i>
+    </div>  
+<div class="cont">
+    <h6>Director</h6>
+    <p>Pradeep Bhattarai</p>
+    <h6>Starring</h6>
+    <p>
+        Hari Bansha Acharya, Bipin Karki, Barsha Raut, Rabindra Singh Baniya, Rabindra Jha
+    </p>
+
+</div>
+</div>
+<div class="right"></div>
+<div class="head_time">
+    <h1>MahaJatra</h1>
+  
+    </div>
+</div>
+    </div>
+       <!--Movie select option-->
+       <div class="movie-container">
+        <label> Select a movie:</label>
+        <select id="movie">
+          <img src="mahajatra.jpeg" alt="">
+          <option value="8">MahaJatra (8 EURO)</option>
+          
+        </select>
+        <!--Showcase-->
+        <ul class="showcase">
+            <li>
+              <div class="seat"></div>
+              <small>Available</small>
+            </li>
+            <li>
+              <div class="seat selected"></div>
+              <small>Selected</small>
+            </li>
+            <li>
+              <div class="seat sold"></div>
+              <small>Sold</small>
+            </li>
+          </ul>
+     <!--Main Container-->
+     <div class="container">
+        <div class="screen"></div>
+  
+        <div class="row">
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+        </div>
+  
+        <div class="row">
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat sold"></div>
+          <div class="seat sold"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+        </div>
+  
+        <div class="row">
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat sold"></div>
+          <div class="seat sold"></div>
+        </div>
+  
+        <div class="row">
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+        </div>
+  
+        <div class="row">
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat sold"></div>
+          <div class="seat sold"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+        </div>
+        <div class="row">
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat"></div>
+          <div class="seat sold"></div>
+          <div class="seat sold"></div>
+          <div class="seat sold"></div>
+          <div class="seat"></div>
+        </div>
+      </div>
+  
+      <p class="text"> You have selected <span id="count">0</span> seat for a price of RS.<span id="total">0</span> </p>
+  
+    <script src="app.js"></script>
+</body>
+</html>
